@@ -7,21 +7,18 @@ This repository contains code for a text processing pipeline that tokenizes text
 - [Requirements](#requirements)
 - [Installation](#installation)
 - [Usage](#usage)
-- [Examples](#examples)
-- [Contributing](#contributing)
-- [License](#license)
 
 ## Introduction
 
-In this project, we have implemented a text processing pipeline that consists of the following steps:
+In this project, I have implemented a text processing pipeline that consists of the following steps:
 
-1. **Tokenization:** We use the NLTK library to tokenize input text into sentences.
+1. **Tokenization:** I use the NLTK library to tokenize input text into sentences.
 
-2. **Embedding:** We apply the Sentence Bert embedding technique to capture the contextual meaning of sentences.
+2. **Embedding:** I apply the Sentence Bert embedding technique to capture the contextual meaning of sentences.
 
-3. **Similarity Search:** We utilize the Faiss technique to efficiently find sentences similar to a provided query based on their embeddings.
+3. **Similarity Search:** I utilize the Faiss technique to efficiently find sentences similar to a provided query based on their embeddings.
 
-4. **Summarization:** We summarize the similar sentences using the Facebook BERT model to generate concise and meaningful summaries.
+4. **Summarization:** I summarize the similar sentences using the Facebook BERT model to generate concise and meaningful summaries.
 
 ## Requirements
 
@@ -39,3 +36,17 @@ You can install these dependencies using pip.
 
    ```shell
    git clone https://github.com/yourusername/your-repo-name.git
+
+## Usage
+
+Follow these steps to use the project:
+
+1. **Step 1**: Provide input text that you want to process.
+
+2. **Step 2**: Run the tokenization, embedding, similarity search, and summarization functions provided in the code.
+
+3. **Step 3**: Obtain the summarized output.
+
+
+
+
