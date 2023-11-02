@@ -30,13 +30,6 @@ In this project, I have implemented a text processing pipeline that consists of 
 
 You can install these dependencies using pip.
 
-## Installation
-
-1. Clone the repository to your local machine:
-
-   ```shell
-   git clone https://github.com/yourusername/your-repo-name.git
-
 ## Usage
 
 Follow these steps to use the project:
